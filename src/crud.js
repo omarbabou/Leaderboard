@@ -1,6 +1,6 @@
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ Mj0tcMVVFGk965t6FiUp/scores/';
 
-const player = document.getElementById('input-player');
+const player = document.getElementById('player');
 const score = document.getElementById('score');
 const userList = document.querySelector('.clm-score');
 
