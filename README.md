@@ -2,7 +2,7 @@
 
 # Leaderboard
 
-Leaderboard website that displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+The leaderboard is a javascript web app that display scores from players. Teh players enter his name and his score the data will be displayed to the screen and thanks to leaderboard API it will be save the way that others can see the classification.
 
 ## see the project
 
