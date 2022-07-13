@@ -10,8 +10,7 @@ here is the: [live_Demo]()
 
 ## Built With
 
--Webpack
-
+- Webpack
 - HTML
 - CSS
 - Javascript
