@@ -1,6 +1,6 @@
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ Mj0tcMVVFGk965t6FiUp/scores/';
 
-const player = document.getElementById('input-player');
+const player = document.getElementById('player');
 const score = document.getElementById('score');
 const userList = document.querySelector('.clm-score');
 
@@ -27,7 +27,8 @@ const getData = async () => {
   data.result.forEach((player, index) => {
     userList.innerHTML += `
           <li id="${index + 1}">
-            <p>${player.user}: <span>${player.score}</span></p>
+          <p>${index + 1} </p>
+          <p> ${player.user}: <span>${player.score}</span></p>
           </li>
       `;
   });

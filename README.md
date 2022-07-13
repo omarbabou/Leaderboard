@@ -6,7 +6,7 @@ Leaderboard website that displays scores submitted by different players. It also
 
 ## see the project
 
-here is the: [live_Demo]()
+here is the: [live_Demo](https://idriss-omar-leaderboard.netlify.app/)
 
 ## Built With
 
