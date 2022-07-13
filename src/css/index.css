@@ -12,7 +12,10 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-image: url('../graphics/undraw.svg') no repeat right;
+  background-image: url('../graphics/undraw.svg');
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-position: right 0 top 115px;
 }
 
 h1 {
@@ -110,12 +113,9 @@ h3 {
 }
 
 .score-form form {
-  height: 40px;
-  margin-top: 1.2rem;
-  padding: 10px;
-  border: none;
-  outline: none;
-  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .score-form form input {
@@ -123,6 +123,9 @@ h3 {
   height: 40px;
   margin-top: 1.2rem;
   padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
 }
 
 .score-input,
