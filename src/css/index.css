@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background: url('../graphics/undraw_filter_re_sa16.svg') no repeat right;
+  background-image: url('../graphics/undraw.svg') no repeat right;
 }
 
 h1 {
@@ -110,9 +110,12 @@ h3 {
 }
 
 .score-form form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  height: 40px;
+  margin-top: 1.2rem;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
 }
 
 .score-form form input {
@@ -122,19 +125,31 @@ h3 {
   padding: 10px;
 }
 
-.button {
-  width: 100px;
-  height: 35px;
-  margin-top: 15px;
+.score-input,
+.user-input {
+  width: 320px;
+  border-bottom: 4px solid#6c63ff;
+  padding-bottom: 0.3rem;
 }
 
-footer {
-  width: 100%;
-  background-color: #525252;
-  height: 80px;
+.fa-crown,
+.fa-user {
+  color: #6c63ff;
+  font-size: 23px;
+}
+
+::placeholder {
+  font-size: 16px;
+  color: #525252b7;
+}
+
+.button {
+  width: 150px;
+  height: 43px;
+  margin-top: 30px;
+  background-color: #6c63ff;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
   color: #fff;
-  font-size: 28px;
-  bottom: 0;
-  text-align: center;
-  padding-top: 1rem;
 }
