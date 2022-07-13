@@ -1,14 +1,17 @@
-import _ from 'lodash';
 import './css/index.css';
 
-function component() {
-  const element = document.createElement('div');
+import { getData, postData } from './crud.js';
 
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
+const form = document.querySelector('form');
 
-  return element;
-}
+document.querySelector('.refresh-btn').addEventListener('click', (e) => {
+  e.preventDefault();
+  getData();
+});
 
-document.body.appendChild(component());
+document.querySelector('.button').addEventListener('click', (e) => {
+  e.preventDefault();
+  postData();
+  form.reset();
+});
+window.onload = () => getData();
