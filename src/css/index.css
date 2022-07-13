@@ -30,3 +30,23 @@ h3 {
   padding: 1rem;
   flex: 1;
 }
+
+.aside {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.refresh-btn {
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 1px 1px 10px #525252;
+}
+
+.clm-score {
+  border: 3px solid #525252;
+  width: 400px;
+  margin-top: 1.5rem;
+}
