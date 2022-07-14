@@ -4,6 +4,10 @@
 
 The leaderboard is a javascript web app that display scores from players. Teh players enter his name and his score the data will be displayed to the screen and thanks to leaderboard API it will be save the way that others can see the classification.
 
+## Screenshot
+
+![Screenshot](./src/graphics/Screen%20Shot%202022-07-13%20at%2010.13.11%20PM.png)
+
 ## see the project
 
 here is the: [live_Demo](https://idriss-omar-leaderboard.netlify.app/)
