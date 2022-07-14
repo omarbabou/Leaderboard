@@ -4,6 +4,10 @@
 
 Leaderboard website that displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
+## Screenshot
+
+![Screenshot](./src/graphics/Screen%20Shot%202022-07-13%20at%2010.13.11%20PM.png)
+
 ## see the project
 
 here is the: [live_Demo](https://idriss-omar-leaderboard.netlify.app/)
